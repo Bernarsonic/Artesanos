@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <!-- HEADER-->
+
+    <header class="header">
+        <a class="logo" href="./">
+            <img src="./img/cordoneria-logo.png" alt="Cordonería Alba">>
+        </a>
+
+        <!--NAVBAR-->
+
+        <nav>
+            <a href="./">Inicio</a>
+            <a href="./historia.html">Historia</a>
+            <a href="./servicios.html">Servicios</a>
+            <a href="./galeria.html">Galería</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+        
+    </header>
+    <section class="contact-section">
+        <div class="bloque-izquierdo">
+            
+        </div>
+        <div class="bloque-derecho">
+            <!-- FORMULARIO -->
+            <form class="formulario" action="#">
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Aqui va su nombre">
+                    </li>
+                    <li>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" placeholder="Aqui va su apellido">
+                    </li>
+                    <li>
+                        <label for="email">Correo</label>
+                        <input type="email" id="email" placeholder="Escriba su dirrecion de correo">
+                    </li>
+                    <li>
+                        <label for="mensaje">¿Cómo podemos ayudarte?</label>
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"
+                            placeholder="Cuentanos tu problema"></textarea>
+                    </li>
+        
+                    <li>
+                        <span>Servicios</span>
+                    </li>
+                    <section class="formulario-servicios">
+        
+                        <li class="one">
+                            <label>
+                                <input type="checkbox">
+                                <span>Web Design</span>
+                            </label>
+                        </li>
+                        <li class="two">
+                            <label>
+                                <input type="checkbox">
+                                <span>UX Design</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>User research</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>Content creation</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>Stategy y consulting</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>Other</span>
+                            </label>
+                        </li>
+                    </section>
+                    <li>
+                        <button class="boton" type="submit">Enviar</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

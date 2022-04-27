@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 16px 83px;
+    height: 122px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 16px 83px;
+    height: 122px;
+    background-color: #2B5450;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    gap: 48px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F2F8F7;
+}
+
+.logo {
+    outline: none;
+    color: transparent;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F2F8F7;
+    height: 100vh;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.titulo h1 {
+    font-family: 'EB Garamond';
+    font-size: 120px;
+    text-transform: uppercase;
+}
+
+.titulo p {
+    font-family: 'Open sans', sans-serif;
+    font-size: 32px;
+    text-align: justify;
+    width: 100%;
+    max-width: 836px;
+}
+
+.fondo{
+    color: #F2F8F7;
+    color:#B17C0E;
+    height: 100vh;
+}
+
+
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F8F7;
+    padding-top: 120px;
+}
+
+
+.section1 {
+    display: flex;
+    align-items: center;
+    background-color: #F2F8F7;
+    width: 100%;
+    height: 100vh;
+    padding: 0rem 10rem;
+}
+
+.section1 hr {
+    border: 1px solid;
+    margin-top: 2px;
+    width: 409px;
+    color: #B17C0E;
+}
+
+.larayota{
+    border: 1px solid;
+    margin-top: 2px;
+    width: 409px;
+    color: #B17C0E;
+    
+}
+
+.section1-title {
+    font-family: 'EB Garamond';
+    font-size: 54px;
+    color: #B17C0E;
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+
+.bloque img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.bloque p {
+    width: 80%;
+    font-size: 20px;
+}
+
+.historia {
+    display: flex;
+}
+
+.pegado {
+    display:flex;
+}
+
+.foto {
+    width: 500px;
+    height: 500px;
+    color: #F2F8F7;
+    font-size: 48px;
+}
+
+.columna1,
+.columna2 {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    font-family: Garamond;
+    font-size: 48px;
+}
+
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 625px;
+    background-color: #2B5450;
+    height: 393px;
+    text-align: start;
+    padding: 68px 108px;
+    color: #F2F8F7;
+    font-size: 48px;
+}
+
+.background{
+    background-color:#274849;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 4rem 0;
+}
+
+
+
+.barra {
+    height: 1px;
+    background-color: #F2F8F7;
+    width: 409px;
+}
+
+.parrafo {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F8F7;
+    align-items: center;
+    color: #B17C0E;
+    padding-top: 75px;
+    height: 70vh;
+    font-size: 36px;
+    font-family: EB Garamond;
+}
+.conos {
+    font-size: 5rem;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F8F7;
+    align-items: center;
+    color: #B17C0E;
+    padding-top: 50px;
+    font-size: 36px;
+    font-family: EB Garamond;
+}
+
+.fotitos {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row dense;
+    margin-top: 60px;
+    margin-bottom: 180px;
+}
+
+.fotitos>* {
+    order: 1;
+    position: relative;
+}
+
+.foto1,
+.foto2,
+.foto3,
+.foto4,
+.foto5,
+.foto6 {
+    grid-column: span 1;
+}
+
+
+.foto1 {
+    background-image: url(./img/cordoneria-historia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto2 {
+    background-image: url(./img/servicio1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto3 {
+    background-image: url(./img/cordoneria2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto4 {
+    background-image: url(./img/servicio2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto5 {
+    background-image: url(./img/servicio3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.foto6 {
+    background-image: url(./img/servicio4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.laraya {
+    border: 1px solid;
+    margin-top: 2px;
+    background-color: #B17C0E;
+    width: 409px;
+}
+
+.fotos {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.pequeño {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    color: #F2F8F7;
+    font-size: 48px;
+    grid-row: span 1;
+}
+
+.alto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    color: #F2F8F7;
+    font-size: 48px;
+}
+
+.footer {
+    background-color: #2B5450;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.redes {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.icono {
+    font-size: 2rem;
+    color: #E5E5E5;
+}
+
+.final {
+    padding-top: 25px;
+    color: #F2F8F7;
+    text-decoration: none;
+}
+
+.mcaja {
+    width: 80%;
+    background-color:#F2F8F7;
+    display: flex;
+    object-position: center;
+    color: black;
+    padding: 5rem 2rem 0;
+    gap: 2rem;
+}
+
+
+.mcpatatas {
+    display: flex;
+    background-color:bisque;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 30px;
+    padding: 2rem 2rem ;
+    border-radius: 2%;
+    text-align:center
+}
+
+.mcpatatas h2 {
+    text-align: center;
+    color: #B17C0E;
+}
+
+.mcpatatas i {
+    text-align: center;
+    color: #B17C0E;
+    font-size: 55px;
+}
+
+.vox {
+    width: 80%;
+    background-color:#F2F8F7;
+    display: flex;
+    object-position: center;
+    color: black;
+    padding: 5rem 2rem;
+    gap: 2rem;
+}
+.chorizo {
+    display: flex;
+    background-color:bisque;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 30px;
+    padding: 2rem 2rem;
+    border-radius: 2%;
+    align-items: center;
+}
+
+.chorizo h2 {
+    text-align: center;
+    color: #B17C0E;
+}
+
+.ima1,
+.ima2,
+.ima3 {
+    height: 250px;
+    width: 250px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ima1 {
+    background-image: url(./img/josema.jpg);
+}
+
+.ima2 {
+    background-image: url(./img/paco.jpg);
+}
+
+.ima3 {
+    background-image: url(./img/africa.jpg);
+}
+
+.padding {
+    padding-top: 5rem;
+}
+
+.formulario {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   text-align: start;
+   padding: 1rem 12rem;
+   border-radius: 1rem;
+   color:white;
+}
+
+.formulario ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.formulario ul li {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.formulario-servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 10px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0%;
+    height: 100%;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+ .formulario input {
+     height: 40px;
+     border-radius: 10px;
+     border: none;
+     outline: none;
+     padding: 2px 12px;
+     border: 2px solid transparent;
+ }
+
+ .formulario input:focus,
+ .formulario textarea:focus {
+     border: 2px solid #B17C0E;
+ }
+ 
+ .formulario textarea {
+     padding: 10px 12px;
+     border-radius: 10px;
+     border: none;
+     outline: none;
+     border: 2px solid transparent;
+     width: 100%;
+     height: 100px;
+     max-width: 580px;
+     min-width: 580px;
+     min-height: 100px;
+     max-height: 150px;
+ }
+
+.formulario .formulario-servicios label {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.formulario input::placeholder,
+.formulario textarea::placeholder {
+    font-size: 14px;
+    color: gray;
+}
+
+.boton {
+    background-color: #B17C0E;
+    border-radius: 20px;
+    color: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: .5rem 0;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contact-section {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 122px);
+}
+
+.bloque-izquierdo {
+    width: 50%;
+    background-color: yellow;
+    background-image: url(./img/background1.jpg);
+    background-repeat:no-repeat;
+}
+
+.bloque-derecho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: #273130;
+}
